@@ -2,8 +2,8 @@
 
 抖音/Tiktok/头条 加密、签名算法研究
 
-加密算法
-    设备注册：/service/2/device_register/
+# 加密算法
+## 设备注册：/service/2/device_register/
 设备注册请求解密后
 {
     "magic_tag": "ss_app_log",
@@ -65,12 +65,12 @@
     "_gen_time": 1589461488220
 }
 
-##xlog加密算法
+## xlog加密算法
 xlog的算法在libcms.so中，在JNI_Onload中动态注册jni函数。算法用vm protect，和混淆，主要是流程平坦化，流程混淆和运算替换，看起来比较困难。
 
 
-#签名
-#抖音04开头xgorgon
+# 签名
+## 抖音04开头xgorgon
 主要是X-Gorgon和X-SS-STUB.之后经过抓包抖音接口，查看Java层,so层代码。
 X-SS-STUB是post请求时body部分的md5值，但是在为空的情况下，有时候不参与加密，有时候参与加密，具体接口需要具体分析
 X-Khronos比较简单就是一个unix时间戳
