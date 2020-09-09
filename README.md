@@ -2,7 +2,7 @@
 
 抖音/Tiktok/头条 加密、签名算法研究
 
-# 加密算法
+# 一、加密算法
 ## 设备注册：/service/2/device_register/
 设备注册请求解密后  
 #``` 
@@ -66,7 +66,7 @@
     "_gen_time": 1589461488220
 }
 #```   
-## xlog加密算法
+## 二、xlog加密算法
 xlog的算法在libcms.so中，在JNI_Onload中动态注册jni函数。算法用vm protect，和混淆，主要是流程平坦化，流程混淆和运算替换，看起来比较困难。
 
 
