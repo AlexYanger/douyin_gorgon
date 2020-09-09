@@ -2,8 +2,8 @@
 
 抖音/Tiktok/头条 加密、签名算法研究
 
-#加密算法
-##设备注册：/service/2/device_register/
+加密算法
+    设备注册：/service/2/device_register/
 设备注册请求解密后
 {
     "magic_tag": "ss_app_log",
