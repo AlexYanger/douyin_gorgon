@@ -76,3 +76,7 @@ xlog的算法在libcms.so中，在JNI_Onload中动态注册jni函数。算法用
 X-SS-STUB是post请求时body部分的md5值，但是在为空的情况下，有时候不参与加密，有时候参与加密，具体接口需要具体分析  
 X-Khronos比较简单就是一个unix时间戳.  
 X-Gorgon是对cookie,X-SS-STUB,X-Khronos,Url进行混合加密之后的参数。这里也区分情况，有些接口只有url和X-Khronos参与接口加密，有些是url，X-Khronos，X-SS-STUB参与接口加密，有些则是所有都进行接口加密。
+
+解密接口：
+iOS：http://45.77.44.25/index?os=iOS&xgorgon=you_xgorgon
+android: http://45.77.44.25/index?os=android&xgorgon=you_android_xgorgon
