@@ -80,3 +80,6 @@ X-Gorgon是对cookie,X-SS-STUB,X-Khronos,Url进行混合加密之后的参数。
 解密接口：
 iOS：http://45.77.44.25/index?os=iOS&xgorgon=you_xgorgon
 android: http://45.77.44.25/index?os=android&xgorgon=you_android_xgorgon
+
+
+research email: xgorgon@tutanota.com
